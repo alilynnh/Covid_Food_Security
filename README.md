@@ -5,7 +5,7 @@ The purpose of the current project was to explore trends in food insecurity duri
 
 
 ## Food Insecurity
-<img src="Resources/insecurity_race.png">    
+<img src="Resources/insecurity_race.png" height="75%" width="75%">    
 
 <img src="Resources/often_insecure_race.png">     
 
