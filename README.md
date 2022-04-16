@@ -1,7 +1,10 @@
 # Food Insecurity During the COVID-19 Pandemic
 ## Project Overview
-The purpose of the current project was to explore trends in food insecurity during the COVID-19 Pandemic. 
+### Background
+Background info about food insecurity and its negative effects on those affected
+The purpose of the current project was to explore trends in food insecurity during the COVID-19 Pandemic
 
+### Data and Tools
 
 
 ## Food Insecurity
@@ -14,7 +17,9 @@ The purpose of the current project was to explore trends in food insecurity duri
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
 
 ## Employment
-<img src="Resources/covid_income.png" height="75%" width="75%">         
+<img src="Resources/covid_income.png" height="75%" width="75%">  
+
+<img src="Resources/income_food.png" height="75%" width="75%">    
 
 <img src="Resources/covid_retire.png" height="75%" width="75%">        
 

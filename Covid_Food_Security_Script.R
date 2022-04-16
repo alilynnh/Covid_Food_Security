@@ -161,6 +161,24 @@ IncomePlot <- Data_I %>%
 IncomePlot
 ggsave("covid_income.png")
 
+#Food Insecurity by Income
+Income_food <- Data_I %>%
+  filter(!is.na(Income)) %>%
+  filter(Income!="Did not report") %>%
+  filter(Location=="US") %>%
+  mutate(percentage= Often.not.enough.to.eat/Total) %>%
+  ggplot() + aes(x = Date, y = percentage, group = Income, color = Income)+
+  geom_line(size = 1) +
+  theme(axis.title = element_text(size=14),
+        plot.title = element_text(hjust = .5),
+        axis.text = element_text(size=12),
+        axis.text.x = element_text(angle=45, hjust=1))+ 
+  ylab("Percent of Respondents") + xlab("Week") + ggtitle("Food Insecurity by Income") +
+  scale_y_continuous(labels = scales::percent)
+
+Income_food
+ggsave("income_food.png")
+
 # General anxiety trend
 unique(Data$Freq_Feel_Anxious)#looking at anxiety answer options
 
