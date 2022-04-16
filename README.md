@@ -23,9 +23,8 @@ To try to more easily visualize differences in the racial groups and to examine 
 
 <img src="Resources/often_insecure_race.png" height="75%" width="75%"> 
    
-
+*The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
 <img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">    
-*Obtained from [Our World in Data](https://ourworldindata.org/covid-cases). 
 
 In addition to exploring disparities in food insecurity rates among racial groups, 
 <img src="Resources/often_insecure_age.png" height="75%" width="75%">     
