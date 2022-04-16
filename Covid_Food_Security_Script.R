@@ -180,5 +180,19 @@ GeneralAnxietyPlot <- Data %>%
 GeneralAnxietyPlot
 ggsave("general_anxiety.png")
 
+# Food Insecurity and Anxiety
+Food_Anxious <- Data %>%
+  filter(!is.na(Freq_Feel_Anxious)) %>%
+  filter(Location=="US") %>%
+  mutate(percentage= Often.not.enough.to.eat/Total) %>%
+  ggplot() + aes(x = Date, y = percentage, group = Freq_Feel_Anxious, color = Freq_Feel_Anxious)+
+  geom_line(size = 1) +
+  theme(axis.title = element_text(size=14),
+        plot.title = element_text(hjust = .5),
+        axis.text = element_text(size=12),
+        axis.text.x = element_text(angle=45, hjust=1))+ 
+  ylab("Percent of Respondents") + xlab("Week") + ggtitle("Food Insecurity and Anxiety Levels") +
+  scale_y_continuous(labels = scales::percent)
 
-
+Food_Anxious
+ggsave("food_anxious.png")

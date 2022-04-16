@@ -21,6 +21,8 @@ The purpose of the current project was to explore trends in food insecurity duri
 ## Mental Health
 <img src="Resources/general_anxiety.png" height="75%" width="75%">    
 
+<img src="Resources/food_anxious.png" height="75%" width="75%">
+
 ## Limitations
 
 
