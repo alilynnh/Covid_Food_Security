@@ -22,11 +22,12 @@ The first visualization charts the percent of repondents in various racial group
 To try to more easily visualize differences in the racial groups and to examine the most severe cases of food insecurity, the next visual charts only the percent of repondents who reported that they *often* did not have enough to eat. The disparities between the racial groups are still prevalent, but somewhat less so than the previous graph. Both graphs exhibit a spike at the beginning of the pandemic as well as a spike around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible. 
 
 <img src="Resources/often_insecure_race.png" height="75%" width="75%"> 
+   
 
-**COVID-19 Cases Over Time**    
 <img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">    
 *Obtained from [Our World in Data](https://ourworldindata.org/covid-cases). 
 
+In addition to exploring disparities in food insecurity rates among racial groups, 
 <img src="Resources/often_insecure_age.png" height="75%" width="75%">     
 
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
@@ -50,4 +51,15 @@ To try to more easily visualize differences in the racial groups and to examine 
 ## Limitations
 
 
+## Need Help? 
+Do you need help getting food? If so, clicking on the link below will take you to the Feeding America food bank locator.
+
+Feeding America Food Bank Locator : https://www.feedingamerica.org/need-help-find-food
+
+From the Feeding America Website: 
+> Even if a food bank looks far away, they can help you find food closer to home. Search by zip code or state using the food bank locator, and contact the food bank that serves your area.
+
+>Food assistance is free, comfortable, and confidential. However, you may need to complete some paperwork when you check-in.
+
+>Low or no contact options are also available in many areas, including seniors-only hours, drive-through pantries, expanded home delivery services, and more.
 ## References
