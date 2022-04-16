@@ -1,4 +1,4 @@
-# Food Security During the COVID-19 Pandemic
+# Food Insecurity During the COVID-19 Pandemic
 ## Project Overview
 The purpose of the current project was to explore trends in food insecurity during the COVID-19 Pandemic. 
 
