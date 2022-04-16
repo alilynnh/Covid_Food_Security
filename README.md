@@ -10,7 +10,7 @@ The US Census Household Pulse Survey is a 20-minute online survey which was desi
 
 The Household Pulse Survey collected information on various topics, one being Food Sufficiency/Food Security. The data used for this project was obtained from the "Food Sufficiency for Households, in the Last 7 Dyas, by Select Characteristics" tables. The data was stored in excel files that contained roughly 67 sheets each. The data was not in a tidy format, and simply showed counts for each food sufficiency reponse per reponse in another category. Because of this, when all of the files were combined into a tidy format, it resulted in a data set where each row represented one response option in one category, rather than representing all of the responses from an individual survey participant. 
 
-To create the visualizations, R was used in RStudio in combination with the ggplot2 package. The code for this project can be found [here]("Covid_Food_Security_Script.R"). 
+To create the visualizations, R was used in RStudio in combination with the ggplot2 package. The code for this project can be found [here](Covid_Food_Security_Script.R). 
 
 ## Food Insecurity
 <img src="Resources/insecurity_race.png" height="75%" width="75%">    
