@@ -12,9 +12,10 @@ The Household Pulse Survey collected information on various topics, one being Fo
 
 To create the visualizations, R was used in RStudio in combination with the ggplot2 package. The code for this project can be found [here](Covid_Food_Security_Script.R). 
 
-## Demographic Groups
+## Demographics
 Previous analyses provide evidence to the fact that food insecurity is not evenly spread throughout the country or across racial and ethnic groups (Fitzpatrick et al., 2020). For example, prior to the COVID-19 pandemic, wide disparities in food insecurity already existed, with elevated rates for poor households, households with children, single-parent households, people living alone, and Black- and Hispanic-headed households (Fitzpatrick et al., 2020). Fitzpatrick (2020) points out that it is important to pay special attention to these vulnerable groups, as these disparities may have widended during the current pandemic. In the study done by Fitzpatrick (2020), it was found that adult food insecurity in the United States had become significantly elevated during the pandemic, and that individuals who are low income, parents, and Black and/or Hispanic had a higher prevalence of food insecurity. 
 
+### Race
 The first visualization charts the percent of repondents in various racial groups who reported that they either *sometimes* did not have enough to eat or *often* did not have enough to eat. From the chart, it is evident the rate of food insecurity was highest in the Black, Hispanic, or multiracial/other groups.    
 
 <img src="Resources/insecurity_race.png" height="75%" width="75%">    
@@ -26,17 +27,17 @@ To try to more easily visualize differences in the racial groups and to examine 
 *The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
 <img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">    
 
+### Age 
 In addition to exploring disparities in food insecurity rates among racial groups, 
 <img src="Resources/often_insecure_age.png" height="75%" width="75%">     
 
+### Education
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
 
-## Employment
+### Employment
 <img src="Resources/covid_income.png" height="75%" width="75%">  
 
-<img src="Resources/income_food.png" height="75%" width="75%">    
-
-<img src="Resources/covid_retire.png" height="75%" width="75%">        
+<img src="Resources/income_food.png" height="75%" width="75%">       
 
 ## Mental Health
 <img src="Resources/general_anxiety.png" height="75%" width="75%">    
