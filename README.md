@@ -31,7 +31,11 @@ To create the visualizations, R was used in RStudio in combination with the ggpl
 ## Mental Health
 <img src="Resources/general_anxiety.png" height="75%" width="75%">    
 
-<img src="Resources/food_anxious.png" height="75%" width="75%">
+<img src="Resources/food_anxious.png" height="75%" width="75%">    
+
+<img src="Resources/depression.png" height="75%" width="75%">    
+
+<img src="Resources/food_depression.png" height="75%" width="75%">    
 
 ## Limitations
 
