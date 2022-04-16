@@ -1,7 +1,7 @@
 # Food Insecurity During the COVID-19 Pandemic
 ## Project Overview
 ### Background
-Food insecurity can be defined as a lack of consistent access to adequate and nutritious food that meets the dietary needs and food preferences of an individual (Niles et al., 2020). Food insecurity can lead to serious negative health outcomes such as diabetes, high blood pressure, heart disease, and mental health challenges (Niles et al., 2020). Trends in food insecutiry tend to parallel trends in unemployment, poverty, and food prices (Niles et al., 2020). The COVID-19 pandemic and the subsequent social distancing efforts have caused disruption in food systems which has had serious food security implications (Niles et al., 2020). The purpose of the current project was to explore trends in food insecurity during the COVID-19 pandemic, as well as gather research on the topic. 
+Food insecurity can be defined as a lack of consistent access to adequate and nutritious food that meets the dietary needs and food preferences of an individual (Niles et al., 2020). Food insecurity can lead to serious negative health outcomes such as diabetes, high blood pressure, heart disease, and mental health challenges (Niles et al., 2020). Trends in food insecurity tend to parallel trends in unemployment, poverty, and food prices (Niles et al., 2020). The COVID-19 pandemic and the subsequent social distancing efforts have caused disruption in food systems which has had serious food security implications (Niles et al., 2020). The purpose of the current project was to explore trends in food insecurity during the COVID-19 pandemic, as well as gather research on the topic. 
 
 ### Data and Tools
 The data used for the visualizations in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/jackogozaly/pulse-survey-food-insecurity-data). The Kaggle dataset was an aggregation of data from the [United States Census Bureau's Household Pulse Survey](https://www.census.gov/programs-surveys/household-pulse-survey/data.html). 
@@ -12,7 +12,7 @@ The Household Pulse Survey collected information on various topics, one being Fo
 
 To create the visualizations, R was used in RStudio in combination with the ggplot2 package. The code for this project can be found [here](Covid_Food_Security_Script.R). 
 
-## Food Insecurity
+## Demographic Groups
 <img src="Resources/insecurity_race.png" height="75%" width="75%">    
 
 <img src="Resources/often_insecure_race.png" height="75%" width="75%">     

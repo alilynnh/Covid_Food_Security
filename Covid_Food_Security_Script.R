@@ -186,7 +186,18 @@ ggsave("income_food.png")
 # General anxiety trend
 unique(Data$Freq_Feel_Anxious)#looking at anxiety answer options
 
-GeneralAnxietyPlot <- Data %>%
+Data_A<-Data
+Data_A$Freq_Feel_Anxious <- as.factor(Data_A$Freq_Feel_Anxious)
+class(Data_A$Freq_Feel_Anxious)
+levels(Data_A$Freq_Feel_Anxious) #need to reorder levels for better plot legend
+Data_A$Freq_Feel_Anxious <- factor(Data_A$Freq_Feel_Anxious, levels = c(
+  "Not at all",
+  "Several days",
+  "More than half the days",
+  "Nearly every day",
+  "Did not report"))
+
+GeneralAnxietyPlot <- Data_A %>%
   filter(!is.na(Freq_Feel_Anxious)) %>%
   filter(Location=="US") %>%
   filter(Freq_Feel_Anxious!="Did not report")%>%
@@ -203,9 +214,10 @@ GeneralAnxietyPlot
 ggsave("general_anxiety.png")
 
 # Food Insecurity and Anxiety
-Food_Anxious <- Data %>%
+Food_Anxious <- Data_A %>%
   filter(!is.na(Freq_Feel_Anxious)) %>%
   filter(Location=="US") %>%
+  filter(Freq_Feel_Anxious!="Did not report")%>%
   mutate(percentage= Often.not.enough.to.eat/Total) %>%
   ggplot() + aes(x = Date, y = percentage, group = Freq_Feel_Anxious, color = Freq_Feel_Anxious)+
   geom_line(size = 1) +
@@ -219,3 +231,48 @@ Food_Anxious <- Data %>%
 Food_Anxious
 ggsave("food_anxious.png")
 
+# Depression in general
+Data_D<-Data
+Data_D$Freq_Feel_Depressed <- as.factor(Data_D$Freq_Feel_Depressed)
+class(Data_D$Freq_Feel_Depressed)
+levels(Data_D$Freq_Feel_Depressed) #need to reorder levels for better plot legend
+Data_D$Freq_Feel_Depressed <- factor(Data_D$Freq_Feel_Depressed, levels = c(
+  "Not at all",
+  "Several days",
+  "More than half the days",
+  "Nearly every day",
+  "Did not report")) 
+
+GeneralDepression <- Data_D %>%
+  filter(!is.na(Freq_Feel_Depressed)) %>%
+  filter(Location=="US") %>%
+  filter(Freq_Feel_Depressed!="Did not report")%>%
+  ggplot() + aes(x = Date, y = Total, group = Freq_Feel_Depressed, color = Freq_Feel_Depressed)+
+  geom_line(size = 1) +
+  theme(axis.title = element_text(size=14),
+        plot.title = element_text(hjust = .5),
+        axis.text = element_text(size=12),
+        axis.text.x = element_text(angle=45, hjust=1))+ 
+  ylab("Total Respondents") + xlab("Week") + ggtitle("Depression During COVID") +
+  scale_y_continuous(label=comma)
+
+GeneralDepression
+ggsave("depression.png")
+
+
+Food_Depression <- Data_D %>%
+  filter(!is.na(Freq_Feel_Depressed)) %>%
+  filter(Location=="US") %>%
+  filter(Freq_Feel_Depressed!="Did not report")%>%
+  mutate(percentage= Often.not.enough.to.eat/Total) %>%
+  ggplot() + aes(x = Date, y = percentage, group = Freq_Feel_Depressed, color = Freq_Feel_Depressed)+
+  geom_line(size = 1) +
+  theme(axis.title = element_text(size=14),
+        plot.title = element_text(hjust = .5),
+        axis.text = element_text(size=12),
+        axis.text.x = element_text(angle=45, hjust=1))+ 
+  ylab("Percent of Respondents") + xlab("Week") + ggtitle("Food Insecurity and Depression Levels") +
+  scale_y_continuous(labels = scales::percent)
+
+Food_Depression
+ggsave("food_depression.png")
