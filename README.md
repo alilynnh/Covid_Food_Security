@@ -13,7 +13,7 @@ The Household Pulse Survey collected information on various topics, one being Fo
 To create the visualizations, R was used in RStudio in combination with the ggplot2 package. The code for this project can be found [here](Covid_Food_Security_Script.R). 
 
 ## Demographics
-Previous analyses provide evidence to the fact that food insecurity is not evenly spread throughout the country or across racial and ethnic groups (Fitzpatrick et al., 2020). For example, prior to the COVID-19 pandemic, wide disparities in food insecurity already existed, with elevated rates for poor households, households with children, single-parent households, people living alone, and Black- and Hispanic-headed households (Fitzpatrick et al., 2020). Fitzpatrick (2020) points out that it is important to pay special attention to these vulnerable groups, as these disparities may have widended during the current pandemic. In the study done by Fitzpatrick (2020), it was found that adult food insecurity in the United States had become significantly elevated during the pandemic, and that individuals who are low income, parents, and Black and/or Hispanic had a higher prevalence of food insecurity. 
+Previous analyses provide evidence to the fact that food insecurity is not evenly spread throughout the country or across racial and ethnic groups (Fitzpatrick et al., 2020). For example, prior to the COVID-19 pandemic, wide disparities in food insecurity already existed, with elevated rates for poor households, households with children, single-parent households, people living alone, and Black- and Hispanic-headed households (Fitzpatrick et al., 2020). Fitzpatrick et al. (2020) point out that it is important to pay special attention to these vulnerable groups, as these disparities may have widended during the current pandemic. In the study done by Fitzpatrick et al. (2020), it was found that adult food insecurity in the United States had become significantly elevated during the pandemic, and that individuals who are low income, parents, and Black and/or Hispanic had a higher prevalence of food insecurity. In addition, results obtained by Lauren et al. (2021) suggest that the pandemic has indeed worsened existing societal inequalities. 
 
 ### Race
 The first visualization charts the percent of repondents in various racial groups who reported that they either *sometimes* did not have enough to eat or *often* did not have enough to eat. From the chart, it is evident the rate of food insecurity was highest in the Black, Hispanic, or multiracial/other groups.    
@@ -28,7 +28,8 @@ To try to more easily visualize differences in the racial groups and to examine 
 <img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">    
 
 ### Age 
-In addition to exploring disparities in food insecurity rates among racial groups, 
+In addition to exploring disparities in food insecurity rates among racial groups, it may also be beneficial to determine which age ranges may be the most at risk for food insecurity. The following graph presents the percentage of individuals in various age groups who responded that they often do not have enough to eat. It appears that the age ranges with the highest prevalences of food insecurity are 25-39 and 40-54 years old. This may be due to the fact that individuals in these age ranges may be more likely to be caring for children than the other age groups, and as discussed earlier, households with children had elevated rates of food insecurity.    
+
 <img src="Resources/often_insecure_age.png" height="75%" width="75%">     
 
 ### Education
