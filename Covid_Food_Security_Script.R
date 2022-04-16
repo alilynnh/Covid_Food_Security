@@ -29,6 +29,10 @@ Data$Date <- as.Date(Data$Date, "%B/%d/%Y")
 # Check column types again
 sapply(Data, class)
 
+# Saw some different location formats, I need to see what the various
+# responses were
+unique(Data$Location) # Has "US", state abbreviations, and metros. To avoid duplicates, will just use "US"
+
 # Food Insecurity By Race plot - often or sometimes not enough to eat
 race1plot <- Data %>%
     filter(!is.na(Race)) %>%
@@ -214,3 +218,4 @@ Food_Anxious <- Data %>%
 
 Food_Anxious
 ggsave("food_anxious.png")
+
