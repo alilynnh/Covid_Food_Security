@@ -58,7 +58,9 @@ Feeding America Food Bank Locator : https://www.feedingamerica.org/need-help-fin
 
 From the Feeding America Website: 
 > Even if a food bank looks far away, they can help you find food closer to home. Search by zip code or state using the food bank locator, and contact the food bank that serves your area.
+
 >Food assistance is free, comfortable, and confidential. However, you may need to complete some paperwork when you check-in.
+
 >Low or no contact options are also available in many areas, including seniors-only hours, drive-through pantries, expanded home delivery services, and more.
 
 ## References
