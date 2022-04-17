@@ -20,19 +20,17 @@ The first visualization charts the percent of repondents in various racial group
 
 <img src="Resources/insecurity_race.png" height="75%" width="75%">    
 
-To try to more easily visualize differences in the racial groups and to examine the most severe cases of food insecurity, the next visual charts only the percent of repondents who reported that they *often* did not have enough to eat. The disparities between the racial groups are still prevalent, but somewhat less so than the previous graph. Both graphs exhibit a spike at the beginning of the pandemic as well as a spike around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible. 
+To try to more easily visualize differences in the racial groups and to examine the most severe cases of food insecurity, the next visual charts only the percent of repondents who reported that they *often* did not have enough to eat. The disparities between the racial groups are still prevalent, but somewhat less so than the previous graph.  
 
-<img src="Resources/often_insecure_race.png" height="75%" width="75%"> 
-   
-*The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
-<img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">    
+<img src="Resources/often_insecure_race.png" height="75%" width="75%">  
 
 ### Age 
-In addition to exploring disparities in food insecurity rates among racial groups, it may also be beneficial to determine which age ranges may be the most at risk for food insecurity. The following graph presents the percentage of individuals in various age groups who responded that they often do not have enough to eat. It appears that the age ranges with the highest prevalences of food insecurity are 25-39 and 40-54 years old. This may be due to the fact that individuals in these age ranges may be more likely to be caring for children than the other age groups, and as discussed earlier, households with children had elevated rates of food insecurity.    
+In addition to exploring disparities in food insecurity rates among racial groups, it may also be beneficial to determine which age ranges may be the most at risk for food insecurity. The following graph presents the percentage of individuals in various age groups who responded that they often do not have enough to eat. It appears that the age ranges with the highest prevalences of food insecurity are 25-39 and 40-54 years old. This may be due to the fact that individuals in these age ranges may be more likely to be caring for children than the other age groups, and as discussed earlier, households with children have elevated rates of food insecurity.    
 
 <img src="Resources/often_insecure_age.png" height="75%" width="75%">     
 
 ### Education
+The following graph presents the percentage of individuals with various education levels who responded that they often do not have enough to eat. Those that have less than a high school degree have significantly higher rates of food insecurity than other education levels. It's been found that those who do not complete high school have the lowest average earnings (U.S. Bureau of Labor Statistics, 2020; U.S. Census Bureau, 1999) and have the highest rate of unemployment (U.S. Bureau of Labor Statistics, 2020) when compared to higher education levels. In addition, when looking at various occupations and the distribution of educational attainment within each, the highest rate of those with less than a high school degree occured the following fields: a.) natural resouces, construction, and maintenance, b.) service occupations, and c.) production, transportation, and material moving. In a study done by the principal economist at Gallup, it was found that these occupationns were some of the hardest hit by the pandemic based on layoffs, reduction in hours, and reduction in pay (Rothwell, 2020). Combining these facts with the fact that households with lower incomes are more likely to experience food insecurity (De Marco & Thornburn, 2009), it makes sense that individuals with the lowest levels of educational attainment would have higher rates of food insecurity. 
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
 
 ### Employment
@@ -48,6 +46,12 @@ In addition to exploring disparities in food insecurity rates among racial group
 <img src="Resources/depression.png" height="75%" width="75%">    
 
 <img src="Resources/food_depression.png" height="75%" width="75%">    
+
+## Discussion
+Most graphs exhibit a spike at the beginning of the pandemic as well as a spike around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible.
+
+*The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
+<img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">  
 
 ## Limitations
 
