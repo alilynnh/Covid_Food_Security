@@ -31,6 +31,7 @@ In addition to exploring disparities in food insecurity rates among racial group
 
 ### Education
 The following graph presents the percentage of individuals with various education levels who responded that they often do not have enough to eat. Those that have less than a high school degree have significantly higher rates of food insecurity than other education levels. It's been found that those who do not complete high school have the lowest average earnings (U.S. Bureau of Labor Statistics, 2020; U.S. Census Bureau, 1999) and have the highest rate of unemployment (U.S. Bureau of Labor Statistics, 2020) when compared to higher education levels. In addition, when looking at various occupations and the distribution of educational attainment within each, the highest rate of those with less than a high school degree occured the following fields: a.) natural resouces, construction, and maintenance, b.) service occupations, and c.) production, transportation, and material moving. In a study done by the principal economist at Gallup, it was found that these occupationns were some of the hardest hit by the pandemic based on layoffs, reduction in hours, and reduction in pay (Rothwell, 2020). Combining these facts with the fact that households with lower incomes are more likely to experience food insecurity (De Marco & Thornburn, 2009), it makes sense that individuals with the lowest levels of educational attainment would have higher rates of food insecurity. 
+
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
 
 ### Employment
@@ -47,7 +48,7 @@ The following graph presents the percentage of individuals with various educatio
 
 <img src="Resources/food_depression.png" height="75%" width="75%">    
 
-## Discussion
+## General Discussion
 Most graphs exhibit a spike at the beginning of the pandemic as well as a spike around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible.
 
 *The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
