@@ -35,6 +35,8 @@ The following graph presents the percentage of individuals with various educatio
 <img src="Resources/often_insecure_education.png" height="75%" width="75%">     
 
 ### Employment
+The following graph presents the number of individuals in various income levels. There is a general downward trend in all of the groups, with the lowest income levels seeing the steepest decline. These declines are likely due to the mass unemployment casued by COVID-19 (Faria-e-Castro, 2021). According to a study done by Raifman et al. (2021), 48.3% of adults who were living in households earning less than $75,000/year and were employed in February of 2020 experienced unemployment during the COVID-19 pandemic. In addition, the number of new unemployment claims during the three weeks between March 22 and April 11, 2020 was over 22 million (Enriquez & Goldstein, 2020). To put this into perspective, this loss is roughly equal to the net job gains during the 10 year long expansion following the 2008 recession (Enriquez & Goldstein, 2020). Apart from becoming unemployed due to layoffs (Rothwell, 2020), it is likely that many individuals left the workforce due to health reasons or to care for family members (Faria-e-Castro, 2021). Retirements may also make up part of the decline in the data. According to Faria-e-Castro (2021), there has been a retirement "boom" during COVID-19. In other words, the actual percentage of retirements during covid exceeds the predicted percentage of Baby Boomer retirements, with the number of excess retirements due to COVID-19 exceeding 2.4 million (Faria-e-Castro, 2021). 
+
 <img src="Resources/covid_income.png" height="75%" width="75%">  
 
 <img src="Resources/income_food.png" height="75%" width="75%">       
@@ -49,7 +51,7 @@ The following graph presents the percentage of individuals with various educatio
 <img src="Resources/food_depression.png" height="75%" width="75%">    
 
 ## General Discussion
-Most graphs exhibit a spike at the beginning of the pandemic as well as a spike around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible.
+Most graphs exhibit a disruption in the overall directions of the lines both in the beginning of the pandemic as well as around January 2021. This January spike may be due to a surge in COVID-19 cases that happened during that time, which may have led to various food sources being closed/inaccessible.
 
 *The image below was obtained from [Our World in Data](https://ourworldindata.org/covid-cases).
 <img src="Resources/coronavirus-data-explorer.png" height="75%" width="75%">  
